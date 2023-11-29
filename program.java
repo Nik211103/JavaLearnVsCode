@@ -32,9 +32,13 @@ public class program {
     //     System.out.println(flag3); 
 
     // }
-
     public static void main(String[] args) {
         var i = 123;
         System.out.println(i);
+        int a = 123;
+        a++;
+        System.out.println(a);
+        System.out.println(++a);//можно так
     }
 }
+    
