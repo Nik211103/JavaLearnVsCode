@@ -1,8 +1,16 @@
 ﻿/**
  * program
  */
-import java.util.Scanner;
+//import java.util.Scanner;
 public class program {
+    // public static void main(String[] args) {
+    //     Scanner iScanner = new Scanner(System.in);
+    //     System.out.println("name: ");
+    //     String name = iScanner.nextLine();
+    //     System.out.printf("Привет, %s!", name);
+    //     iScanner.close();
+    
+    // }
     
     // public static void main(String[] args) {
     //     String s = "  2";
@@ -51,13 +59,32 @@ public class program {
         //     //Есть понятия явное и неявное преобразование
 
         // }
-        public static void main(String[] args) {
-            Scanner iScanner = new Scanner(System.in);
-            System.out.println("name: ");
-            String name = iScanner.nextLine();
-            System.out.printf("Привет, %s!", name);
-            iScanner.close();
 
-        }
+        // static void sayHi() {
+        //     System.out.println("hi!");
+        // }
+        // static int sum(int a , int b) {
+        //     return a+b;
+        // }
+        // static double factor(int n){
+        // if(n==1) return 1;
+        // return n * factor(n-1);
+        // }
+        // public static void main(String[] args) {
+        //     sayHi();
+        //     System.out.println(sum(1, 3));
+        //     System.out.println((factor(5)));
+
+        //     int a = 1;
+        //     int b = 2;
+        //     int c;
+        //     if (a > b) {  //if (a > b ) c = a;
+        //         c = a;
+        //     } else{       //if (b > a) c = b;
+        //         c = b;
+        //     }
+        //     System.out.println(c);;
+        // }
+
 }
     
