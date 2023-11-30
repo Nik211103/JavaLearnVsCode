@@ -2,7 +2,7 @@
  * program
  */
 //import java.util.Scanner;
-public class program {
+//public class program {
     // public static void main(String[] args) {
     //     Scanner iScanner = new Scanner(System.in);
     //     System.out.println("name: ");
@@ -85,6 +85,92 @@ public class program {
         //     }
         //     System.out.println(c);;
         // }
+            // public static void main(String[] args) {
+            //     int a = 123;
+            //     a = a - 122;
+            //     switch (a) {
+            //         case 1: System.out.println(a);
+            //             break;
+            //         case 10: System.out.println('b');
+            //             break;
+            //     }
+            // }
 
-}
+            // public static void main(String[] args) {
+            //     // int value = 321;
+            //     // int count = 0;
+
+            //     // while (value != 0){
+            //     //     value /= 10;
+            //     //     count++;
+            //     // }
+
+            //     // do {
+            //     //     value /= 10;
+            //     //     count++;
+            //     // } while(value !=0);
+            //     // System.out.println(count);
+
+            //     for (int i = 0; i < 10; i++){
+            //         if(i % 2 != 0)
+            //             continue; // break; выполняет до первой провальной проверки условия и завершает цикл 
+            //         System.out.println(i);
+            //     }
+            // }
+            //import java.util.Scanner;
+            
+            //public class program {
+        //public static void main(String[] args) {
+
+                    // Scanner scanner = new Scanner(System.in);
+                    
+                    // System.out.print("Введите число 1: ");
+                    // int number1 = scanner.nextInt();
+                    // System.out.print("Введите число 2: ");
+                    // int number2 = scanner.nextInt();
+                    // scanner.close();
+                    // int result = number1 + number2;
+
+                    // System.out.println("Сумма чисел равно: " +result );
+
+        //}
+
+        // public static void main(String[] args) {
+        //     Scanner scanner = new Scanner(System.in);
+
+        //     System.out.print("Введите число: ");
+        //     int number = scanner.nextInt();
+        //     scanner.close();
+            
+        //     if(number != 0){
+        //         if (number % 2 == 0){
+        //             System.out.println("Число "+number+ " является четным.");
+        //         }
+           
+        //         else{
+        //             System.out.println("Число " +number+ " не является четным.");
+        //         }
+        //     } 
+
+        //     else{
+        //     System.out.println("Ваше число является нулем");
+        //     }
+        // }
+    //}
+// import java.util.Scanner;
+// public class program {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Введите число: ");
+//         int n = scanner.nextInt();
+//         scanner.close();
+//             int result = 1;
+//             int count = 2;
+//                 do{
+//                     result += count;
+//                     count ++;
+//                 } while(count <= n);
+//         System.out.println(result);
+//     }
     
+// }
