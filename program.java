@@ -164,8 +164,8 @@
 //         System.out.print("Введите число: ");
 //         int n = scanner.nextInt();
 //         scanner.close();
-//             int result = 1;
-//             int count = 2;
+//             int result = 0;
+//             int count = 0;
 //                 do{
 //                     result += count;
 //                     count ++;
@@ -174,3 +174,6 @@
 //     }
     
 // }
+
+
+
