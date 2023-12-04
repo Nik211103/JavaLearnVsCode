@@ -1,10 +1,10 @@
-﻿package ПервыйСеминар;
+﻿package Практика;
 //Создайте программу для конвертации температуры из градусов Цельсия в градусы Фаренгейта и наоборот. 
 //Пользователь должен ввести исходную температуру и выбрать нужную конвертацию.
 
 import java.util.Scanner;
 
-public class test1 {
+public class Test1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         System.out.println("Введите температуру: ");
@@ -12,6 +12,7 @@ public class test1 {
         System.out.println("Введите 1 для перевода из Цельсия в Фаренгейты или 2 для перевода наоборот: ");
         short op = scanner.nextShort();
         double result = 0;
+        scanner.close();
 
         System.out.println("Результат = " + (operation(result, temp, op)));
         
