@@ -29,5 +29,21 @@ public class test3 {
         for (int i = 0; i < str.length; i++) {
             System.out.println(str[i]);
         }
+
+        for (String string : str) {
+            System.out.println(string);
+        }
+
+        
+        int num[] = {1,2,3};
+        int sum = 0;
+        for (int x: num) {
+            sum = sum + x;
+        }
+        System.out.println(sum);
+
+        int value = 0;
+        String s = null;
+        System.out.println(s);
     }
 }
