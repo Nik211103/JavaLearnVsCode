@@ -7,15 +7,16 @@ import java.util.Scanner;
 // boolean значение).
 public class task3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите строку: ");
-        String string = scanner.nextLine();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Введите строку: ");
+            String string = scanner.nextLine();
 
-        if (polindrom(string) == true){
-        System.out.println("Строка является палиндромом");
-    }
-        else{
-        System.out.println("Строка не является палиндромом");
+            if (polindrom(string) == true){
+            System.out.println("Строка является палиндромом");
+   }
+            else{
+            System.out.println("Строка не является палиндромом");
+            }
         }
     }
     
