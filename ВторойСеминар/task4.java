@@ -11,7 +11,7 @@ import java.util.logging.SimpleFormatter;
 // Напишите метод, который составит строку, состоящую из 100
 // повторений слова TEST и метод, который запишет эту строку в
 // простой текстовый файл, обработайте исключения.
-public class task4 {
+public class Task4 {
     static Logger logger = Logger.getAnonymousLogger();
     public static void main(String[] args) {
         String filePath = "ВторойСеминар/test.txt";//надо в конце добавить название и формат файла

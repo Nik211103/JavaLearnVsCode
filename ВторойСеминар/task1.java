@@ -1,6 +1,6 @@
 ﻿package ВторойСеминар;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         int n = 10;
         char c1 = '1';

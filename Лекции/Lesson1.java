@@ -1,4 +1,4 @@
-﻿package ПервыйСеминар;
+﻿package Лекции;
 /**
  * program
  */

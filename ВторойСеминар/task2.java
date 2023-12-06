@@ -2,7 +2,7 @@
 // Напишите метод, который сжимает строку.
 // Пример: вход aaaabbbcdd.
 // Результат: a4b3cd2
-public class task2 {
+public class Task2 {
     public static void main(String[] args) {
         System.out.println(task02("aaaabbccdd"));
     }
