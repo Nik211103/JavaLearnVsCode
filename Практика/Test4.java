@@ -7,7 +7,7 @@ public class Test4 {
         
         String s1 = "Вова";
         // person1.sayHello();
-        int year1 = person1.calculate();
+        //int year1 = person1.calculate();
         person1.speak();
         
         //System.out.println("Меня зовут " + person1.name +" "+"мне "+person1.age+" лет." );
@@ -15,7 +15,7 @@ public class Test4 {
         Person person2 = new Person();
         person2.calculate();
         person2.name = "Вова";
-        int year2 =  person2.age = 20;
+        //int year2 =  person2.age = 20;
         //System.out.println("Меня зовут " + person2.name +" "+"мне "+person2.age+" лет." );
         // person2.speak();
         person2.setNameAndAge(s1, 30);
