@@ -92,7 +92,7 @@ public class Test8 {
             }
             else if (useranswer == 2)
             {
-                BankAccount.deposit(account1.getBalance());
+                BankAccount.deposit(account1.getBalance(), scanner);
             }
         }
 
@@ -103,7 +103,7 @@ public class Test8 {
 }
 
 class BankAccount{
-    static Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     private Double balance;
     private String owner;
 
@@ -126,19 +126,21 @@ class BankAccount{
 
     static void withdraw(double balance){
         System.out.print("Введите желаемую сумму для снятия:");
-        double numWithdraw = scanner.nextDouble();
+        try (Scanner scanner = new Scanner(System.in)) {
+            double numWithdraw = scanner.nextDouble();
 
-        if(balance != 0){
-            balance -= numWithdraw;
-            System.out.println("Выполнена снятие на сумму: "+numWithdraw+ ". Ваш оставшийся баланс: " + balance);
-        }
-        else{
-            System.out.println("Невозможно выполнить операцию. Ваш баланс равен 0");
+            if(balance != 0 && numWithdraw <= balance){
+                balance -= numWithdraw;
+                System.out.println("Выполнена снятие на сумму: "+numWithdraw+ ". Ваш оставшийся баланс: " + balance);
+            }
+            else{
+                System.out.println("Невозможно выполнить операцию. Ваш баланс равен 0 или введена сумма большая вашего баланса.");
+            }
         }
         
     }
 
-    static void deposit(double balance){
+    static void deposit(double balance, Scanner scanner){
         System.out.print("Введите желаемую сумму для пополнения баланса: ");
         double numDeposit = scanner.nextDouble();
         if(numDeposit > 0 ){
@@ -154,9 +156,6 @@ class BankAccount{
 
 /*
   TODO 
-1.Использование static Scanner scanner в классе BankAccount: 
-Лучше создать новый экземпляр Scanner в методе main() и передавать его в методы withdraw() и deposit(),
-чтобы избежать использования статического поля scanner. Это поможет избежать проблем с закрытием ресурса Scanner.
 
 2.Обработка ошибок пользовательского ввода: В вашем коде нет обработки некорректного пользовательского ввода. 
 Рекомендуется добавить проверки и обработку исключений для предотвращения сбоев программы при некорректных данных, 

@@ -1,6 +1,6 @@
-﻿package Лекции;
+﻿//package Лекции;
 
-public class Lesson2 {
+//public class Lesson2 {
     // public static void main(String[] args) {
     //     System.out.println(Sum(1, 2));
     //     System.out.println(Sum(1.0, 2));
@@ -31,4 +31,4 @@ public class Lesson2 {
     //     return temp;
         
     // }
-}
+//}

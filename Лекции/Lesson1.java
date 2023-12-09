@@ -1,4 +1,4 @@
-﻿package Лекции;
+﻿//package Лекции;
 /**
  * program
  */
